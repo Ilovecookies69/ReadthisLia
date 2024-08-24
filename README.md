@@ -41,7 +41,7 @@
         .birthday-message {
             display: none;
             background-color: #ffc0cb; /* Pink background color */
-            padding: 20px; /* Increased padding */
+            padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             margin-top: 20px;
@@ -52,14 +52,15 @@
             margin-right: auto;
         }
         .gif {
-            max-width: 80px; /* Adjust size as needed */
+            max-width: 100px; /* Adjusted size */
+            height: auto; /* Maintain aspect ratio */
         }
         .song-info {
             background-color: #ffadad; /* Coral background color */
-            padding: 10px; /* Adjusted padding */
+            padding: 10px;
             border-radius: 5px;
             color: #333333;
-            font-size: 20px; /* Adjusted font size */
+            font-size: 20px;
             margin-top: 10px;
         }
     </style>
@@ -73,7 +74,6 @@
         <div class="birthday-message" id="birthdayMessage">
             <img src="https://media0.giphy.com/media/26FLdmIp6wJr91JAI/200.webp?cid=790b7611qkxwpgc7cu9ccl17u7v20zdwzz1s4op2rq8c2j4f&ep=v1_gifs_search&rid=200.webp&ct=g" alt="GIF3" class="gif">
             <img src="https://media.giphy.com/media/l0HU2sYgCZh3HiKnS/giphy.gif" alt="GIF4" class="gif">
-            <!-- Your birthday message goes here -->
             <p>Dear Lia,</p>
             <p>It's August 25 as I was writing this message, 12:15 midnight. I was supposed to study biochem and anaphy, but I figured out, why not make you a short message. So I'm hoping you'd read this💜(fav color mo lol)</p>
             <p>I have no idea paano ko napunta sa point na to, writing you a message, umaamin on what I'm feeling. But the first time we met, I wasn't really feeling this way. I just got from a breakup around Feb/March, and it really affected me mentally. Mahirap mag-trust or open up to someone, especially to a girl, but with you, everything felt natural.</p>
