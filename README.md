@@ -52,7 +52,7 @@
             margin-right: auto;
         }
         .gif {
-            max-width: 100px; /* Adjust size as needed */
+            max-width: 80px; /* Adjust size as needed */
         }
         .song-info {
             background-color: #ffadad; /* Coral background color */
@@ -97,4 +97,3 @@
     </script>
 </body>
 </html>
-
