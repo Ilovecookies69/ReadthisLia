@@ -13,12 +13,9 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            padding: 10px;
         }
         .container {
             text-align: center;
-            max-width: 500px;
-            width: 100%;
         }
         .heart-icon {
             font-size: 36px;
@@ -31,35 +28,35 @@
             transform: scale(1.1);
         }
         @keyframes heartbeat {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-            100% { transform: scale(1); }
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
         }
         .birthday-message {
             display: none;
             background-color: #ffc0cb; /* Pink background color */
             padding: 15px;
             border-radius: 10px;
-            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-            margin-top: 15px;
-            font-size: 14px; /* Adjusted font size */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            margin-top: 20px;
+            font-size: 12px; /* Smaller font size */
             color: #333333;
-            max-width: 100%; /* Make sure it fits the screen */
-            margin-left: auto;
-            margin-right: auto;
-            text-align: left;
         }
         .gif {
-            max-width: 80px; /* Adjusted size for better fit */
-            height: auto; /* Maintain aspect ratio */
-            margin: 5px;
+            max-width: 100px; /* Adjust size as needed */
         }
         .song-info {
             background-color: #ffadad; /* Coral background color */
-            padding: 10px;
+            padding: 8px;
             border-radius: 5px;
             color: #333333;
-            font-size: 18px;
+            font-size: 16px; /* Smaller font size */
             margin-top: 10px;
         }
     </style>
@@ -73,6 +70,7 @@
         <div class="birthday-message" id="birthdayMessage">
             <img src="https://media0.giphy.com/media/26FLdmIp6wJr91JAI/200.webp?cid=790b7611qkxwpgc7cu9ccl17u7v20zdwzz1s4op2rq8c2j4f&ep=v1_gifs_search&rid=200.webp&ct=g" alt="GIF3" class="gif">
             <img src="https://media.giphy.com/media/l0HU2sYgCZh3HiKnS/giphy.gif" alt="GIF4" class="gif">
+            <!-- Your birthday message goes here -->
             <p>Dear Lia,</p>
             <p>It's August 25 as I was writing this message, 12:15 midnight. I was supposed to study biochem and anaphy, but I figured out, why not make you a short message. So I'm hoping you'd read this💜(fav color mo lol)</p>
             <p>I have no idea paano ko napunta sa point na to, writing you a message, umaamin on what I'm feeling. But the first time we met, I wasn't really feeling this way. I just got from a breakup around Feb/March, and it really affected me mentally. Mahirap mag-trust or open up to someone, especially to a girl, but with you, everything felt natural.</p>
