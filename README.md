@@ -41,22 +41,25 @@
         .birthday-message {
             display: none;
             background-color: #ffc0cb; /* Pink background color */
-            padding: 15px;
+            padding: 20px; /* Increased padding */
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             margin-top: 20px;
-            font-size: 12px; /* Smaller font size */
+            font-size: 14px; /* Adjusted font size */
             color: #333333;
+            max-width: 80%; /* Limit width to prevent overflow */
+            margin-left: auto;
+            margin-right: auto;
         }
         .gif {
             max-width: 100px; /* Adjust size as needed */
         }
         .song-info {
             background-color: #ffadad; /* Coral background color */
-            padding: 8px;
+            padding: 10px; /* Adjusted padding */
             border-radius: 5px;
             color: #333333;
-            font-size: 16px; /* Smaller font size */
+            font-size: 20px; /* Adjusted font size */
             margin-top: 10px;
         }
     </style>
